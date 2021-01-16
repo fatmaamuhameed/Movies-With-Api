@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+
+        <nav>
+                <div class="test text-center py-4" id="outNav">
+                    <div>
+                        <img src="images/logo.png" class="w-50" alt="">
+                    </div>
+                    
+                    <div id="iconAlign">
+                        <i class="fas fa-align-justify"></i>
+                    </div>
+
+                    <div id="replaceIcon">
+                        <i class="fa fa-align-justify fa-times" ></i>
+                    </div>
+                    
+                    <div>
+                        <div>
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="py-2">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                      
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between vh-100 flex-column bg-dark text-white " id="menu">
+                    <ul>
+                        <li> <a href="#now_playing">Now playing</a></li>
+                        <li><a href="#popular">Popular</a> </li>
+                        <li><a href="#top_rated">Top Rated</a></li>
+                        <li><a href="#trending"> Trending</a></li>
+                        <li><a href="#upcoming">Upcoming</a></li>
+                        <li><a href="#contactUs">Contact Us</a></li>
+                    </ul>
+
+                    <div class="pl-2">
+                        <div>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fas fa-globe"></i>
+                        </div>
+
+                        <div>
+                            <p>Copyright Â© 2019 All Rights Reserved.</p>
+                        </div>
+                    </div>
+                 
+                </div>
+        </nav>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" id="movieByWord" class="form-control" placeholder="get movies by word...">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" id="search" class="form-control" placeholder="Search...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="container">
+            <div class="row" id="myFilms">
+  
+            </div>
+
+        </div>
+
+
+        <section class="py-5" id="contactUs">
+            <div class="container mt-4">
+                <h3 class="text-white">ContacUs...</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Enter Your Name" class="form-control mt-2 ">
+                            <div  id="valid-name">Your Name is not valid
+                            </div>
+                            <input  name="phone" id="phone" placeholder="Enter Phone" class="form-control mt-2">
+                            <div id="valid-phone">entre valid phone
+                            </div>
+                            <input type="password" name="password" id="password" placeholder="Enter Password" class="form-control mt-2">
+                            <div id="valid-password">
+                                entre valid password *Minimum eight characters, at least one letter and one number:*
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Enter Email" class="form-control mt-2 ">
+                            <div id="valid-email">
+                                entre valid email
+
+                            </div>
+                            <input  name="age" id="age" placeholder="Enter Age" class="form-control mt-2">
+                            <div id="valid-age">
+                                entre valid Age
+
+                            </div>
+                            <input type="password" name="Repassword" id="Repassword" placeholder="Enter RePassword" class="form-control mt-2 ">
+                            <div id="valid-rePassword">
+                                entre valid Repassword
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button disabled class="btn btn-outline-danger" id="buttn" type="submit">Submit</button>
+            </div>
+        </section>
+        
+
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
